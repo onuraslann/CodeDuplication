@@ -22,6 +22,7 @@ namespace Method
             var b= Convert.ToInt32(Console.ReadLine());
             var number = a + b;
             return number;
+
         }
     }
 }
