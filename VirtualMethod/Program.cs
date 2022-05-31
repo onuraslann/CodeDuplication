@@ -10,6 +10,7 @@ namespace VirtualMethod
             OracleServer oracleServer = new OracleServer();
             sqlServer.Add();
             oracleServer.Add();
+            oracleServer.Delete();
             Console.ReadLine();
         }
          
@@ -34,6 +35,6 @@ namespace VirtualMethod
     }
     class OracleServer : Database
     {
-
+       
     }
 }
